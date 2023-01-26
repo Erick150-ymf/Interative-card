@@ -1,33 +1,32 @@
 # Interative-card
-Este practica se basa en crear una pagina que replique la zona donde los usuarios ingresan sus datos para generar un pago dependiendo de la compra o pago que esten realizando.
+This practical is based on creating a page that replicates the area where users enter their data to generate a payment depending on the purchase or payment they are making.
 
-Herramientas:
+Tools:
 
-Se uso las herramientas de apoyo que nos brindo FRONEND MENTOR.
+The support tools provided by FRONEND MENTOR were used.
 
-Se uso un poco de CSS Grid.
+Some CSS Grid was used.
 
-Se uso JavaScript para generar una interaccion fluida entre el usuario y la pagina.
+JavaScript was used to generate a fluid interaction between the user and the page.
 
-Se uso genero errores dinamicos en caso el usuario desee probar las funcionalidades de la pagina.
+Dynamic errors are generated in case the user wants to test the functionality of the page.
 
+Steps:
 
-Pasos:
+1.- First, the HTML text was generated as mentioned in the guide.
 
-1.- Primero se genero el texto HTML con forme lo mencionaba la guía.
+2.- Comments were placed for a better reading of the code.
 
-2.- Se colocaron comentarios para un mejor lectura del codigo.
+3.- In the CSS styles, first we used a bit of CSS Grid and we also used the style guide that FRONTEND MENTOR provides us.
 
-3.- En los estilos CSS primero se utilizo un poco de CSS grid y también usamos la guía de estilos que FRONTEND MENTOR nos brinda.
+4.- With Js, first import the Cleave.Js library, however, as it did not follow the standards of practice, it was left aside.
 
-4.- Con Js primero inporte la libreria Cleave.Js, sin embargo como no seguia los estandares de la practica se dejo de lado.
-
-5.- Se uso las funciones:
+5.- The functions were used:
   
-	5.1 ShowError con la finalidad de bordear las casillas en blanco o con datos mal ingresados.
+	5.1 ShowError in order to border the blank boxes or with incorrectly entered data.
   
-	5.2 VerfyIsFilled con la finalidad de verificar que el formulario no se encuentre vacio.
+	5.2 VerfyIsFilled in order to verify that the form is not empty.
   
-	5.3 ValidateLetters con la finalidad mostrar un error en pantalla cuando ingresa letras en los campos donde solo se requieran numeros.
+	5.3 ValidateLetters in order to display an error on the screen when entering letters in fields where only numbers are required.
 
-6.- Se agrego otros errores que complementan a ShowError en cada casilla del formulario por si el usuario no ingresara los datos correctamente.
+6.- Other errors were added that complement ShowError in each box of the form in case the user did not enter the data correctly.
